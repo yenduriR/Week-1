@@ -5,6 +5,10 @@
  */
 public class Week1 {
 
+	/**
+	 * Prints description and cost of the baked food item.
+	 * @param bakedFood baked food item
+	 */
 	public static void print(BakedFood bakedFood) {
 		System.out.printf("%s ($%.2f)\n", bakedFood.getDescription(), bakedFood.cost());
 	}
